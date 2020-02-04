@@ -1,0 +1,51 @@
+# for loop
+# list=["Mohan","Sundar","Rohit","Mayank"]
+# for item in list:
+#     print(item)
+
+# nested list ke ander for lagane ki ninja technique
+list1=[["Pankaj",18],["aman",23],["Aneesh",21]]
+# for name,age in list1:
+#     print(name,age)
+
+# dictionary mein for use krne ki ninja technique
+# dict1=dict(list1)
+# print(dict1)
+# for name,age in dict1.items():
+#     print(name,age)
+
+
+# list=[int,float,"Hary","Sejal",2,45,67,89,9,0,3]
+
+# for item in list:
+#     if str(item).isnumeric() and item>6:
+#         print(item)
+
+
+
+        # while loop
+        # indentation is most important ie a tab gap at starting of each line after if or while
+# i=0
+# while(True):
+#     if i<5:
+#         i=i+1
+#         continue
+#     print(i,end=" ")
+#     if i==20:
+#         break
+#
+#     i=i+1
+
+
+# guess game
+num=3
+num2=76
+while(num!=0):
+    print("No of try left to guess the game: "+ str(num))
+    num=num-1;
+    num1=int(input())
+    if(num1==num2):
+        print("You won")
+        break
+if(num==0):
+    print("You lost")
