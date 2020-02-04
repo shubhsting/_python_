@@ -1,0 +1,55 @@
+mystr="Mohan is a good boy"
+#print(mystr[0::2])
+#print(type(mystr))
+#print(mystr.endswith("boy"))
+print(mystr.count("o"))
+print(mystr.capitalize())
+print(mystr.find("is"))
+print(mystr.upper())
+
+
+# grocery=["ab","np","kj"];
+# print(grocery)
+# print(grocery[::-1])
+# grocery.reverse();
+# print(grocery)
+# grocery.append(3)
+# print(grocery)
+# grocery.insert(2,"t")
+#
+# grocery.remove("ab")
+# print(grocery)
+# grocery.pop();
+# print(grocery)
+a=3
+b=2
+a,b=b,a
+print(a,b)
+
+
+
+# # Dictionary is just key pair value
+# d2={"Hary":"burger","ankit":"pizza"}
+# # print(d2)
+# d3={"Hary":"burger","ankit":"pizza","shubham":{"M":"juice","E":"Roti"}}
+# # print(d3)
+#
+# # add krne ke liye
+# # d2["abhinav"]="roti"
+# # or
+# d2.update({"abhinav":"daal"})
+# print(d2)
+# print(d2.get("abhinav"))
+#
+# # delete krne ke liye
+# del d2["Hary"]
+# print(d2)
+
+
+
+# create a dictionary with 4 words and their meaning .take input from user and display the meaning if present
+
+dict={"khush":"happy","dukhi":"sad","gussa":"angry"}
+word=input("enter word: ");
+
+print(dict.get(word))
