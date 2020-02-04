@@ -1,0 +1,59 @@
+# var1=10
+# var2=36
+# var3=int(input())
+# if var3>var2:
+#     print("Greater")
+#
+# elif(var3==var2):
+#     print("equal")
+#
+# else:
+#     print("smaller")
+
+# list=[6,2,4,9]
+# if 5 not in list:
+#     print("Not Present")
+# else:
+#     print("Present")
+        # Small program for quiz
+# print("Enter age")
+# var2=int(input())
+# if var2>18:
+#     print("You can apply for driving license")
+# elif var2==18:
+#     print("You need to visit office for verification")
+#
+# else:
+#     print("Not Elligible")
+
+
+
+    # exercise2:faulty calculator
+    # perform all operations except
+    # 45*3=555,56+9=77,56/6=4
+num1=int(input("Enter number 1: "))
+num2=int(input("Enter number2 : "))
+op=input("Enter Operator: ")
+
+if op == "+" and num1 == 56 and num2 == 9:
+        print("77")
+if op == "*" and num1 == 45 and num2 == 3:
+    print("77")
+if op == "/" and num1 == 56 and num2 == 6:
+        print("4")
+
+elif op=="+":
+    print(num1+num2)
+elif op=="-":
+    print(num1-num2)
+elif op=="*":
+    print(num1*num2)
+elif op=="/":
+    print(num1+num2)
+
+
+
+  # short hand if else
+    a=6;
+    b=5
+    print("B A se bda hai bhai") if a<b else print("A B se bda hai bhai")
