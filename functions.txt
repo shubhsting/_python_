@@ -1,0 +1,23 @@
+# a=7
+# b=9
+# #built in function
+# c=sum((a,b))
+# print(c)
+
+
+# function ke ander first comment ko docstring khte hai
+
+# def function1():
+#     print("hello")
+#
+# function1()
+
+
+def function2(a,b):
+    """This is used to calculate average of 2 numbers"""
+
+    return (a+b)/2
+
+print(function2(3,4))
+print(function2.__doc__)
+
