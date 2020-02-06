@@ -1,0 +1,54 @@
+# var1=input()
+# var2=input()
+#
+# try:
+#     print("Sum is ",int(var1+var2))
+#
+#
+# except Exception as e:
+#     print(e)
+#
+# print("done")
+#
+
+
+
+# file io  basics
+
+def iobasics():
+    """
+    "r" -open file for reading
+    "w" -open file for writing 
+    "x" -creates file if not exists
+    "a"-add more content to the file
+    "t" -text mode
+    "b" -binary mode
+    "+" -update krne ke liye(read +write)
+    
+    """
+
+print(iobasics.__doc__)
+
+
+f=open("shubham.txt")
+
+content=f.read()
+# print(content)
+# content=f.read(2500)   will read first 2500 characters of file and file pointer will get iterated..
+# print("1",content)
+# content=f.read(3000)
+# print("2",content)
+
+for line in f:
+    # will print line by line
+    print(line,end=" ")
+
+for line in content:
+    # will print word by word if iterated through already read file
+    print(line)
+
+# read line by line
+f.readline()
+# print element as contents of list
+print(f.readlines())
+f.close()
