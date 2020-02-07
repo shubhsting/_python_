@@ -66,3 +66,16 @@ f.seek(10)
 
 
 # file ko close krna is a must.this is termed as good practice
+
+
+
+
+
+
+
+# with keyword to open files
+
+with open("shubham.txt") as f:
+    a=f.readlines()
+    print(a)
+    # isme close krne ki jrurat nhi hai 
