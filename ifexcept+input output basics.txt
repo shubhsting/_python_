@@ -52,3 +52,15 @@ f.readline()
 # print element as contents of list
 print(f.readlines())
 f.close()
+
+
+
+
+
+# tell and seek function
+# tell function hme pointor ki current position btata hai
+# seek pointor ko adjust krne/reset krne ke kaam aata hai
+
+print(f.tell())
+f.seek(10)
+# file ko close krna is a must
