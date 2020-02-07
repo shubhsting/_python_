@@ -63,4 +63,6 @@ f.close()
 
 print(f.tell())
 f.seek(10)
-# file ko close krna is a must
+
+
+# file ko close krna is a must.this is termed as good practice
