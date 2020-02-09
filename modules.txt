@@ -1,0 +1,32 @@
+# import random
+# used for handling random data
+
+# print(random.randint(1,10))
+# print(random.random())
+# list=["er","pk","hj"]
+# print(random.choice(list))
+
+# -----------------------------------------------------------------------
+
+# import platform
+# print(platform.processor())
+# print(platform.system())
+# print(platform.machine())
+
+# ---------------------------------------------------------------------------
+# import datetime
+#
+# print(datetime.date.today())
+
+
+
+# ---------------------------------------------------------------------------
+# import math
+#
+# print(math.floor(9.9))   #returns floor value of floating number
+# print(math.degrees(22/7))   #convert degree to radian
+
+# -----------------------------------------------------------------------------
+
+
+
