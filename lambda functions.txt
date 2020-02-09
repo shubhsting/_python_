@@ -1,0 +1,17 @@
+# lamda functions or anynomous functions
+# def minus(a,b):
+#     return a-b
+
+# minus=lambda x,y:x-y          #lambda function or short form of writing a function
+#
+# print(minus(4,1))
+
+
+
+# def list_sort(list):
+#     return list[1]
+
+list=[[1,7],[0,3],[5,10]]
+list.sort(key=lambda x:x[0])
+print(list)
+
